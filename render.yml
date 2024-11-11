@@ -15,4 +15,9 @@ services:
           name: database
           property: connectionString
       - key: RAILS_MASTER_KEY
-        sync: false
+        value: 154801fb963af0c4e7aa1b7ef03f9741
+      - key: RAILS_ENV
+        value: production
+      - key: SECRET_KEY_BASE
+        value: af0e44c1699d985716cd825913cc705b5fe03a7f7e52c881c8499aadb9fe4e6c88982456711f9fe1f915dc62dee20345650679124dc43d4200a35f113e22b8ed # Replace with the actual secret key
+      # Add any other necessary environment variables here
